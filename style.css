@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 100vh;
+
     font-family: Roboto, sans-serif;
     border: 2px solid red;
 }
@@ -87,7 +87,9 @@ button {
     justify-content: center;
     height: 215px;
 }
-
+.grail-body{
+margin: 52px;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -111,9 +113,36 @@ button {
 }
 
 
+.quote{
+    background-color: #E5E7EB;
+    padding: 16px 208px;
+    font-size: 36px;
+    font-style: italic;
+  }
+
+.contain{
+    display: flex;
+    justify-content: center;
+   
+    margin: 20px;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    height: 200px;
+    
+    padding: 0 58px;
+    border: 2px solid #3882f6;
+    background-color: #3882f6 ;
+    border-radius: 25px;
+}
+
+
 /*footer*/
 footer {
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -124,3 +153,5 @@ footer {
     background: #1f2937;
     color: #E5E7EB;
   }
+
+
